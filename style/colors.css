@@ -1,0 +1,272 @@
+:root{
+    --primary-color: white;
+    --neutral-color: #16171c;
+    --accent-color: #2fb67e;
+    --accent-color2: #694BC5;
+    --pastel-color: #c3c3c3;
+
+  }
+  
+
+  
+  body{
+    background-color: var(--neutral-color);
+    color: var(--primary-color);
+  }
+  
+
+
+  .highlight-txt{
+    color: var(--accent-color);
+  }
+  
+  
+  .subheading{
+    color: var(--pastel-color);
+
+
+  }
+  
+  header .top-nav{
+    background-color: rgba(0, 0, 0, 0.751);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.106);
+
+  }
+  
+
+  
+  header .top-nav ul a{
+    color: inherit;
+    opacity: 0.7;
+  }
+  
+  @media(width > 700px){
+   
+  
+    header .top-nav{
+      background-color: rgba(0, 0, 0, 0);
+    }
+  
+  }
+  
+
+
+
+#home-section .background:first-child{
+  background: radial-gradient(circle, rgba(136, 63, 209, 0.597) 0%, rgba(128, 0, 255, 0.015) 70%);
+  opacity: 0.80;
+}
+#home-section .background:nth-child(2){
+  background: radial-gradient(circle, #5acec8a1 0%, #61dad403 70%);
+  opacity: 0.25;
+}
+#home-section .background:nth-child(3){
+  background: radial-gradient(circle,  #87d9d532 0%, rgba(128, 0, 255, 0) 70%);
+  opacity: 0.1;
+ 
+}
+
+
+
+#home-section .explore-btn{
+  background: transparent;
+  border: 1px solid var(--accent-color2);
+}
+
+#home-section .explore-btn:hover {
+  background-color: #694BC5;
+}
+
+.firefly {
+  background-color: rgba(235, 235, 65, 0.861);
+  box-shadow: 0 0 8px rgba(255, 255, 100, 0.813);
+}
+
+
+  
+  #home-section .background:first-child{
+    background: radial-gradient(circle, rgba(136, 63, 209, 0.597) 0%, rgba(128, 0, 255, 0.015) 70%);
+    opacity: 0.80;
+  }
+  #home-section .background:nth-child(2){
+    background: radial-gradient(circle, #5acec8a1 0%, #61dad403 70%);
+    opacity: 0.25;
+  }
+  #home-section .background:nth-child(3){
+    height: 40rem;
+    background: radial-gradient(circle,  #87d9d532 0%, rgba(128, 0, 255, 0) 70%);
+    opacity: 0.1;
+   
+  }
+  
+
+  
+
+  #home-section .explore-btn{
+    color: inherit;
+    background: transparent;
+    border: 1px solid var(--accent-color2);
+  }
+  
+  #home-section .explore-btn:hover {
+    background-color: #694BC5;
+  
+  }
+  
+  .firefly {
+    background-color: rgba(235, 235, 65, 0.861);
+    box-shadow: 0 0 8px rgba(255, 255, 100, 0.813);
+  }
+  
+
+
+
+  
+  #about-section .photo-container{
+    background-color: #10101000;
+  }
+  
+  #about-section .photo-container .my-photo{
+    box-shadow:  inset 0 50px 50px 30px rgb(131, 129, 129);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  #skills-section .heading{
+    color: var(--accent-color2);
+  }
+  
+  
+  
+
+  
+  .skills-container .skill-card{
+    background-color: #5d5a63;
+  }
+  
+  .skills-container .skill-card:hover{
+    background-color: #46b58770;
+  }
+  
+  .skills-container .skill-card:hover > .skill-icon{
+    filter: grayscale(0%);
+  }
+  
+  .skills-container .skill-card .skill-icon{
+    filter: grayscale(100%);
+  }
+  
+
+
+  
+#projects-section .heading{
+    color: var(--accent-color);
+  }
+  
+
+
+  
+ 
+  
+  .projects-container .project{
+    background: black;
+  }
+  
+  .projects-container .project:hover > .project-img{
+    opacity: 1;
+    filter: grayscale(40%);
+    opacity: 0.2;
+    filter: grayscale(60%);
+    transition: 1s;
+  }
+  
+
+  .projects-container .project .project-details .visit-btn{
+    background-color:  var(--accent-color);
+    color: inherit;
+  
+  }
+
+
+
+#contact-section input, 
+#contact-section textarea{
+  background-color:  rgba(255, 255, 255, 0.086);
+}
+
+
+
+.buttons-container button.send-btn{
+  background-color: var(--accent-color);
+  color: inherit;
+}
+
+.buttons-container button.clear-btn{
+  background-color: var(--pastel-color);
+}
+
+#contact-section .photo-container .my-photo{
+  box-shadow:  inset 0 50px 50px 30px rgb(131, 129, 129);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0));
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+  footer .socmed-label{
+    color: var(--accent-color);
+  }
+  
+  
+  footer .section-nav{
+    opacity: 0.5;
+  }
+  
+
+  
+  footer .section-nav ul a{
+    color: inherit;
+  }
+  
+  footer .copyright-txt{
+    opacity: 0.5;
+  }
+
+
+ 
+ /* For Rendering */
+ #home-section, 
+ #about-section,
+ #skills-section,
+ #projects-section,
+ #contact-section {
+   display: none;
+ }
+ 
+ .startBtn {
+   font-size: 16px;
+   padding: 1em 1.5em;
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+  }
+
+
+
+
+
+:root{
+    --XS-Fsize: 0.75rem;
+    --small-Fsize: 1rem;
+    --subheading-Fsize: 1.006rem;
+    --medium-Fsize: 1.81rem;
+    --XL-Fsize: 2.625rem;
+  }
+  
+
+  
+  a{
+    text-decoration: none;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+
+  body{
+    font-family: "Poppins", serif;
+  }
+  
+  section{
+    text-align: center;
+  }
+  
+
+  .subheading{
+    font-size: var(--subheading-Fsize);
+  }
+  
+  
+  header .top-nav ul a{
+    font-size: var(--small-Fsize);
+  }
+  
+  
+#home-section{
+  text-align: center;
+}
+
+
+
+#home-section .background
+#home-section .greeting{
+  font-size: 22.5px;
+}
+
+#home-section .name{
+  font-size: 40.5px;
+}
+
+#home-section .main-skills{
+  font-size: 22.5px;
+}
+
+#home-section .explore-btn{
+  font-size: 1rem;
+}
+
+  #home-section .background
+  #home-section .greeting{
+    font-size: 22.5px;
+  }
+  
+  #home-section .name{
+    font-size: 40.5px;
+  }
+  
+  #home-section .main-skills{
+    font-size: 22.5px;
+  }
+  
+  #home-section .explore-btn{
+    font-size: 1rem;
+  }
+  
+
+
+  #about-section .heading{
+    font-size: var(--XL-Fsize);
+  }
+
+  
+  #about-section .details .about-me{
+    line-height: 1.3em;
+  }
+  
+  
+  #about-section .contacts_ p{
+    font-size: 13px;
+  }
+  
+  @media(width > 800px){
+    
+  
+    #about-section .details .heading{
+      text-align: start;
+    }
+  
+    #about-section .details .about-me{
+      text-align: justify;
+    }
+  }
+  
+
+
+  
+  #skills-section .heading{
+    font-size: var(--medium-Fsize);
+  }
+
+
+
+  .skill-card .skill-name{
+    font-size: 13.9;
+    font-weight: 600;
+  }
+  
+  #skills-section .about-my-skills{
+    text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+#projects-section .heading{
+    font-size: var(--medium-Fsize);
+  }
+  
+
+ 
+  .projects-container .project .project-details .project-title{
+    font-size: 1.1rem;
+  }
+  
+  .projects-container .project .project-details .project-description{
+    font-size: var(--XS-Fsize);
+  }
+  
+
+ 
+
+
+
+#contact-section .heading{
+  font-size: var(--XL-Fsize);
+  font-weight: bolder;
+}
+
+#contact-section .subheading{
+  font-size: 1.1rem;
+}
+
+#contact-section input, 
+#contact-section textarea{
+  font-size: var(--XS-Fsize);
+}
+
+
+
+
+#contact-section .buttons-container button{
+  font-size: var(--XS-Fsize);
+}
+
+
+
+footer{
+    text-align: center;
+  }
+  
+  footer .socmed-nav{
+    margin-bottom: 1.5rem;
+  }
+  
+
+
+ 
+ /* For Rendering */
+ #home-section, 
+ #about-section,
+ #skills-section,
+ #projects-section,
+ #contact-section {
+   display: none;
+ }
+ 
