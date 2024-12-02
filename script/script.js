@@ -352,7 +352,7 @@ document.querySelector('#contact-section').innerHTML = contactContentHTML;
   showFooterSection();
   
   // Add Fireflies
-  createFireflies(60);
+  createFireflies(55);
   
   // Display Skills
   const mySkills = ["Web Developer", "Graphic Designer", "Front-End Developer" , "Photographer", "Video Editor"];
